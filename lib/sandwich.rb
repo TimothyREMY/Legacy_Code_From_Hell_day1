@@ -24,7 +24,7 @@ class Sandwich < Snack
   attr_reader :ingredients
 
   def pain_point
-    @ingredients.include('tomatoe') ? 'tomatoes try to run away on each bite' : false
+    @ingredients.include('tomatoe') ? 'tomatoes try to slip away on each bite' : false
   end
 
   def shareable?
@@ -32,7 +32,7 @@ class Sandwich < Snack
   end
 
   def add_ingredient(ingredient)
-    raise 'Please no more ingredient !' if ingredients.size <= KARADOC_IDEAL_NUMBER_OF_INGREDIENTS
+    raise 'Please no more ingredient !' if ingredients.size >= KARADOC_IDEAL_NUMBER_OF_INGREDIENTS
 
     ingredients << ingredient if ingredient.is_a? Ingredient
   end
