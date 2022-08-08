@@ -12,7 +12,7 @@ We not only make sandwiches. We live sandwiches, we breath sandwiches, and peopl
 ### How to test the app
 * `bundle exec rspec`
 
-### Were are the coffees ?
+### Where is the coffee machine ?
 Well since you are a remote dev, you're on your own.
 
 ### Review Process :
