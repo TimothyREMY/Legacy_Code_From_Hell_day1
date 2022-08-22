@@ -5,7 +5,7 @@ RSpec.describe "Shit load of crap you were told would be 'state of the art' duri
   # # Ingredient
   it 'has a name'
 
-  # ## Ingredient's name coucou
+  # ## Ingredient's name
   it 'is gloubiboulga'
   it 'or is the given name in argument'
 
